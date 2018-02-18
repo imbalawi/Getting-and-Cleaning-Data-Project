@@ -9,7 +9,7 @@ It describes variables from the `run_analysis.R`
 ## Script Variables
 Script `run_analysis.R` includes variables:
 *data variable `features`,`subj.train`,`act.train`,`x.train`,`subj.test`,`act.test`,`x.test`
-*aggregated variable `dat.train`, `dat.test'
+*aggregated variable `dat.train`, `dat.test`
 *merged variable `subj.all`,`subj.all2`,`act.lab`,`subj.all3`
 *output variable `tiny.data` (initial output),`tiny.data.2` (final output)
 
@@ -22,9 +22,10 @@ Column Header     | Description
 `actnumber`      | ID of activity
 `actname`     | Label of activity
 
-### tiny_data variable
+## tiny_data variable
 
-Variable name       
+Variable name   |
+--------------------------------------
 *"activity"                                         
 *"subject"                                          
 *"TimeBodyAccelerometer_Mean()_X"                   
